@@ -38,3 +38,17 @@ for (const ele of anArray) {
 }
 
 destArray = anArray.map(ele => ({ name: ele, value: `${ele}-777` }));
+
+// /////////////
+const anObject = {
+  hasOwnProperty() {
+    return 'heihei...';
+  },
+};
+const anotherObject = { key: '777' };
+
+console.log(anObject.hasOwnProperty('key'));
+console.log(anotherObject.hasOwnProperty('key'));
+
+const anotherObj = new Object();
+const items = new Array();
