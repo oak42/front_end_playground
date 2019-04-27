@@ -16,7 +16,6 @@
  * @type {string}
  */
 
-
 const anakinSkywalker = 'Anakin Skywalker';
 const lukeSkywalker = 'Luke Skywalker';
 
@@ -52,3 +51,8 @@ console.log(anotherObject.hasOwnProperty('key'));
 
 const anotherObj = new Object();
 const items = new Array();
+
+// //////////////////////////////////////////////////////////////////////////////
+import showFunc from './funcShow';
+
+showFunc.show('ackerley');
